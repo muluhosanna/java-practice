@@ -6,6 +6,8 @@ import java.security.KeyStore;
 import java.util.*;
 
 public class FirstPractice {
+
+
     public void testSimple() {
         StringBuffer st1 = new StringBuffer("hello world");
         StringBuffer str2 = new StringBuffer("hello world");
@@ -245,14 +247,35 @@ public class FirstPractice {
 
     }
     public void keyboardTest(){
-        System.out.println("what a wonwerful time time is ti");
+        System.out.println("what a wonderful time time is ti");
         System.out.println("I don't believe it");
         for (int i =0;i<6;i++){
             System.out.println(2*i);
         }
         String s="Hello world";
         System.out.println(s.toLowerCase());
+
+
+
     }
+    public void howStack() {
+        Stack<String> str = new Stack<>();
+        str.push("java");
+        str.push("python");
+        str.push("C++");
+        str.push("php");
+        for (String s : str) {
+            System.out.println(s);
+        }
+
+        System.out.println(str.peek());
+        // System.out.println(str.pop());
+        System.out.println(str.toString());
+
+
+    }
+
+
 }
 
 
