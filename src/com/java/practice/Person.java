@@ -2,7 +2,9 @@ package com.java.practice;
 // in the following class apply the comparable interface
 // and we will apply the methods ogf the comparable interface
 
-public class Person implements Comparable<Person>{
+import java.util.Comparator;
+
+public class Person implements Comparable<Person> {
     int age;
     String name;
     public Person(String name,int age){
